@@ -255,13 +255,6 @@
   </url>
   
   <url>
-    <loc>https://winstonchen1.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
-    <lastmod>2024-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://winstonchen1.github.io/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</loc>
     <lastmod>2024-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -269,14 +262,14 @@
   </url>
   
   <url>
-    <loc>https://winstonchen1.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <loc>https://winstonchen1.github.io/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
     <lastmod>2024-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://winstonchen1.github.io/tags/Git/</loc>
+    <loc>https://winstonchen1.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2024-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -297,7 +290,7 @@
   </url>
   
   <url>
-    <loc>https://winstonchen1.github.io/tags/Java/</loc>
+    <loc>https://winstonchen1.github.io/tags/Git/</loc>
     <lastmod>2024-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -305,6 +298,13 @@
   
   <url>
     <loc>https://winstonchen1.github.io/tags/Markdown/</loc>
+    <lastmod>2024-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://winstonchen1.github.io/tags/Java/</loc>
     <lastmod>2024-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
