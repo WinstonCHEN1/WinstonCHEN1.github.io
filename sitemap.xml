@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://winstonchen1.github.io/2024/11/13/asyncio/</loc>
+    
+    <lastmod>2024-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://winstonchen1.github.io/2024/11/13/GIL/</loc>
     
     <lastmod>2024-11-12</lastmod>
@@ -287,6 +296,13 @@
   </url>
   
   <url>
+    <loc>https://winstonchen1.github.io/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</loc>
+    <lastmod>2024-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://winstonchen1.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2024-11-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -294,7 +310,7 @@
   </url>
   
   <url>
-    <loc>https://winstonchen1.github.io/tags/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/</loc>
+    <loc>https://winstonchen1.github.io/tags/Git/</loc>
     <lastmod>2024-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -309,13 +325,6 @@
   
   <url>
     <loc>https://winstonchen1.github.io/tags/GNN/</loc>
-    <lastmod>2024-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://winstonchen1.github.io/tags/Git/</loc>
     <lastmod>2024-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
