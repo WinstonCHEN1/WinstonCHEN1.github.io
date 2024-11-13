@@ -335,13 +335,6 @@
   </url>
   
   <url>
-    <loc>https://winstonchen1.github.io/tags/Git/</loc>
-    <lastmod>2024-11-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://winstonchen1.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2024-11-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -350,6 +343,13 @@
   
   <url>
     <loc>https://winstonchen1.github.io/tags/GNN/</loc>
+    <lastmod>2024-11-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://winstonchen1.github.io/tags/Git/</loc>
     <lastmod>2024-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
