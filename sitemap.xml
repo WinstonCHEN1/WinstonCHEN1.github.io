@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://winstonchen1.github.io/2024/11/20/cpp08/</loc>
+    
+    <lastmod>2024-11-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://winstonchen1.github.io/2024/11/20/cpp09/</loc>
     
     <lastmod>2024-11-20</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>https://winstonchen1.github.io/2024/11/20/cpp06/</loc>
-    
-    <lastmod>2024-11-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://winstonchen1.github.io/2024/11/20/cpp08/</loc>
     
     <lastmod>2024-11-20</lastmod>
     
@@ -358,14 +358,14 @@
   </url>
   
   <url>
-    <loc>https://winstonchen1.github.io/tags/C/</loc>
+    <loc>https://winstonchen1.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2024-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://winstonchen1.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
+    <loc>https://winstonchen1.github.io/tags/C/</loc>
     <lastmod>2024-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
