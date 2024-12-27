@@ -149,56 +149,43 @@
   isToc: true,
   postUpdate: '2024-11-14 15:56:27',
   isShuoshuo: false
-}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/headcg.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">17</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 標籤</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友鏈</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-message"></i><span> 给我留言</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">WinstonChen's Homepage</span></a><a class="nav-page-title" href="/"><span class="site-name">类库与数据结构具体操作解析</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 標籤</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友鏈</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-message"></i><span> 给我留言</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">类库与数据结构具体操作解析</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-11-13T12:49:00.000Z" title="发表于 2024-11-13 20:49:00">2024-11-13</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-11-14T07:56:27.856Z" title="更新于 2024-11-14 15:56:27">2024-11-14</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><h3 id="Ch2-容器与数据结构">Ch2: 容器与数据结构</h3>
-<ol>
-<li>
-<p><strong>数组（Array）实现容器</strong></p>
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/headcg.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">17</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 標籤</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友鏈</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-message"></i><span> 给我留言</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">WinstonChen's Homepage</span></a><a class="nav-page-title" href="/"><span class="site-name">类库与数据结构具体操作解析</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 標籤</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友鏈</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-message"></i><span> 给我留言</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">类库与数据结构具体操作解析</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-11-13T12:49:00.000Z" title="发表于 2024-11-13 20:49:00">2024-11-13</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-11-14T07:56:27.856Z" title="更新于 2024-11-14 15:56:27">2024-11-14</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><h3 id="Ch2-容器与数据结构"><a href="#Ch2-容器与数据结构" class="headerlink" title="Ch2: 容器与数据结构"></a>Ch2: 容器与数据结构</h3><ol>
+<li><p><strong>数组（Array）实现容器</strong></p>
 <ul>
-<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> arr[<span class="number">5</span>] = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>&#125;;</span><br><span class="line"><span class="comment">// 访问元素</span></span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">5</span>; i++) &#123;</span><br><span class="line">    cout &lt;&lt; arr[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
+<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> arr[<span class="number">5</span>] = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>&#125;;</span><br><span class="line"><span class="comment">// 访问元素</span></span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; <span class="number">5</span>; i++) &#123;</span><br><span class="line">    cout &lt;&lt; arr[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：数组支持高效的随机访问，但不适合频繁的插入和删除操作。</li>
 </ul>
 </li>
-<li>
-<p><strong>链表（Linked List）实现容器</strong></p>
+<li><p><strong>链表（Linked List）实现容器</strong></p>
 <ul>
 <li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Node</span> &#123;</span><br><span class="line">    <span class="type">int</span> data;</span><br><span class="line">    Node* next;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 插入到链表头部</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(Node** head, <span class="type">int</span> new_data)</span> </span>&#123;</span><br><span class="line">    Node* new_node = <span class="keyword">new</span> <span class="built_in">Node</span>();</span><br><span class="line">    new_node-&gt;data = new_data;</span><br><span class="line">    new_node-&gt;next = *head;</span><br><span class="line">    *head = new_node;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 遍历链表</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">printList</span><span class="params">(Node* node)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">while</span> (node != <span class="literal">nullptr</span>) &#123;</span><br><span class="line">        cout &lt;&lt; node-&gt;data &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">        node = node-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 </li>
-<li>
-<p><strong>迭代器的使用</strong></p>
+<li><p><strong>迭代器的使用</strong></p>
 <ul>
-<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">vector&lt;<span class="type">int</span>&gt; v = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>&#125;;</span><br><span class="line"><span class="keyword">for</span> (vector&lt;<span class="type">int</span>&gt;::iterator it = v.<span class="built_in">begin</span>(); it != v.<span class="built_in">end</span>(); ++it) &#123;</span><br><span class="line">    cout &lt;&lt; *it &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
+<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">vector&lt;<span class="type">int</span>&gt; v = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>&#125;;</span><br><span class="line"><span class="keyword">for</span> (vector&lt;<span class="type">int</span>&gt;::iterator it = v.<span class="built_in">begin</span>(); it != v.<span class="built_in">end</span>(); ++it) &#123;</span><br><span class="line">    cout &lt;&lt; *it &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：迭代器提供一种通用的遍历容器的方法，使得代码可以独立于具体容器。</li>
 </ul>
 </li>
 </ol>
 <hr>
-<h3 id="Ch3-算法复杂度">Ch3: 算法复杂度</h3>
-<ol>
-<li><strong>时间复杂度分析</strong>
-<ul>
-<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// O(n)复杂度</span></span><br><span class="line"><span class="type">int</span> sum = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) &#123;</span><br><span class="line">    sum += i;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
+<h3 id="Ch3-算法复杂度"><a href="#Ch3-算法复杂度" class="headerlink" title="Ch3: 算法复杂度"></a>Ch3: 算法复杂度</h3><ol>
+<li><strong>时间复杂度分析</strong><ul>
+<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// O(n)复杂度</span></span><br><span class="line"><span class="type">int</span> sum = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) &#123;</span><br><span class="line">    sum += i;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：通过循环次数和嵌套关系可以计算代码的时间复杂度。</li>
 </ul>
 </li>
 </ol>
 <hr>
-<h3 id="Ch4-递归">Ch4: 递归</h3>
-<ol>
-<li>
-<p><strong>递归实现阶乘</strong></p>
+<h3 id="Ch4-递归"><a href="#Ch4-递归" class="headerlink" title="Ch4: 递归"></a>Ch4: 递归</h3><ol>
+<li><p><strong>递归实现阶乘</strong></p>
 <ul>
-<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">factorial</span><span class="params">(<span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (n &lt;= <span class="number">1</span>) <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">return</span> n * <span class="built_in">factorial</span>(n - <span class="number">1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
+<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">factorial</span><span class="params">(<span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (n &lt;= <span class="number">1</span>) <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">return</span> n * <span class="built_in">factorial</span>(n - <span class="number">1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：递归方法计算阶乘，基于<code>n! = n * (n-1)!</code>定义递归关系。</li>
 </ul>
 </li>
-<li>
-<p><strong>递归计算斐波那契数列</strong></p>
+<li><p><strong>递归计算斐波那契数列</strong></p>
 <ul>
 <li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">fibonacci</span><span class="params">(<span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (n &lt;= <span class="number">1</span>) <span class="keyword">return</span> n;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">fibonacci</span>(n - <span class="number">1</span>) + <span class="built_in">fibonacci</span>(n - <span class="number">2</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
@@ -206,125 +193,93 @@
 </li>
 </ol>
 <hr>
-<h3 id="Ch5-Vector-和-Deque">Ch5: Vector 和 Deque</h3>
-<ol>
-<li>
-<p><strong>Vector的使用</strong></p>
+<h3 id="Ch5-Vector-和-Deque"><a href="#Ch5-Vector-和-Deque" class="headerlink" title="Ch5: Vector 和 Deque"></a>Ch5: Vector 和 Deque</h3><ol>
+<li><p><strong>Vector的使用</strong></p>
 <ul>
-<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">vector&lt;<span class="type">int</span>&gt; vec;</span><br><span class="line">vec.<span class="built_in">push_back</span>(<span class="number">10</span>);</span><br><span class="line">vec.<span class="built_in">push_back</span>(<span class="number">20</span>);</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; vec.<span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">    cout &lt;&lt; vec[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
+<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">vector&lt;<span class="type">int</span>&gt; vec;</span><br><span class="line">vec.<span class="built_in">push_back</span>(<span class="number">10</span>);</span><br><span class="line">vec.<span class="built_in">push_back</span>(<span class="number">20</span>);</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; vec.<span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">    cout &lt;&lt; vec[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：<code>push_back</code>用于向Vector末尾添加元素，<code>size()</code>返回元素个数。</li>
 </ul>
 </li>
-<li>
-<p><strong>Deque的使用</strong></p>
+<li><p><strong>Deque的使用</strong></p>
 <ul>
-<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">deque&lt;<span class="type">int</span>&gt; deq;</span><br><span class="line">deq.<span class="built_in">push_back</span>(<span class="number">10</span>);</span><br><span class="line">deq.<span class="built_in">push_front</span>(<span class="number">20</span>);</span><br><span class="line"><span class="keyword">for</span> (deque&lt;<span class="type">int</span>&gt;::iterator it = deq.<span class="built_in">begin</span>(); it != deq.<span class="built_in">end</span>(); ++it) &#123;</span><br><span class="line">    cout &lt;&lt; *it &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
+<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">deque&lt;<span class="type">int</span>&gt; deq;</span><br><span class="line">deq.<span class="built_in">push_back</span>(<span class="number">10</span>);</span><br><span class="line">deq.<span class="built_in">push_front</span>(<span class="number">20</span>);</span><br><span class="line"><span class="keyword">for</span> (deque&lt;<span class="type">int</span>&gt;::iterator it = deq.<span class="built_in">begin</span>(); it != deq.<span class="built_in">end</span>(); ++it) &#123;</span><br><span class="line">    cout &lt;&lt; *it &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：<code>push_front</code>和<code>push_back</code>支持在头部和尾部插入元素，deque适合双向插入删除操作。</li>
 </ul>
 </li>
 </ol>
 <hr>
-<h3 id="Ch6-List">Ch6: List</h3>
-<ol>
-<li><strong>List容器的使用</strong>
-<ul>
-<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">list&lt;<span class="type">int</span>&gt; lst;</span><br><span class="line">lst.<span class="built_in">push_back</span>(<span class="number">10</span>);</span><br><span class="line">lst.<span class="built_in">push_front</span>(<span class="number">20</span>);</span><br><span class="line"><span class="keyword">for</span> (list&lt;<span class="type">int</span>&gt;::iterator it = lst.<span class="built_in">begin</span>(); it != lst.<span class="built_in">end</span>(); ++it) &#123;</span><br><span class="line">    cout &lt;&lt; *it &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
+<h3 id="Ch6-List"><a href="#Ch6-List" class="headerlink" title="Ch6: List"></a>Ch6: List</h3><ol>
+<li><strong>List容器的使用</strong><ul>
+<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">list&lt;<span class="type">int</span>&gt; lst;</span><br><span class="line">lst.<span class="built_in">push_back</span>(<span class="number">10</span>);</span><br><span class="line">lst.<span class="built_in">push_front</span>(<span class="number">20</span>);</span><br><span class="line"><span class="keyword">for</span> (list&lt;<span class="type">int</span>&gt;::iterator it = lst.<span class="built_in">begin</span>(); it != lst.<span class="built_in">end</span>(); ++it) &#123;</span><br><span class="line">    cout &lt;&lt; *it &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：List使用双向链表实现，适合频繁的插入和删除操作。</li>
 </ul>
 </li>
 </ol>
 <hr>
-<h3 id="Ch7-容器适配器">Ch7: 容器适配器</h3>
-<ol>
-<li>
-<p><strong>栈（Stack）的使用</strong></p>
+<h3 id="Ch7-容器适配器"><a href="#Ch7-容器适配器" class="headerlink" title="Ch7: 容器适配器"></a>Ch7: 容器适配器</h3><ol>
+<li><p><strong>栈（Stack）的使用</strong></p>
 <ul>
-<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">stack&lt;<span class="type">int</span>&gt; stk;</span><br><span class="line">stk.<span class="built_in">push</span>(<span class="number">10</span>);</span><br><span class="line">stk.<span class="built_in">push</span>(<span class="number">20</span>);</span><br><span class="line">cout &lt;&lt; stk.<span class="built_in">top</span>(); <span class="comment">// 输出20</span></span><br><span class="line">stk.<span class="built_in">pop</span>();</span><br></pre></td></tr></table></figure>
-</li>
+<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">stack&lt;<span class="type">int</span>&gt; stk;</span><br><span class="line">stk.<span class="built_in">push</span>(<span class="number">10</span>);</span><br><span class="line">stk.<span class="built_in">push</span>(<span class="number">20</span>);</span><br><span class="line">cout &lt;&lt; stk.<span class="built_in">top</span>(); <span class="comment">// 输出20</span></span><br><span class="line">stk.<span class="built_in">pop</span>();</span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：栈的<code>push</code>、<code>pop</code>和<code>top</code>操作分别用于插入、删除和访问栈顶元素。</li>
 </ul>
 </li>
-<li>
-<p><strong>队列（Queue）的使用</strong></p>
+<li><p><strong>队列（Queue）的使用</strong></p>
 <ul>
-<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">queue&lt;<span class="type">int</span>&gt; q;</span><br><span class="line">q.<span class="built_in">push</span>(<span class="number">10</span>);</span><br><span class="line">q.<span class="built_in">push</span>(<span class="number">20</span>);</span><br><span class="line">cout &lt;&lt; q.<span class="built_in">front</span>(); <span class="comment">// 输出10</span></span><br><span class="line">q.<span class="built_in">pop</span>();</span><br></pre></td></tr></table></figure>
-</li>
+<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">queue&lt;<span class="type">int</span>&gt; q;</span><br><span class="line">q.<span class="built_in">push</span>(<span class="number">10</span>);</span><br><span class="line">q.<span class="built_in">push</span>(<span class="number">20</span>);</span><br><span class="line">cout &lt;&lt; q.<span class="built_in">front</span>(); <span class="comment">// 输出10</span></span><br><span class="line">q.<span class="built_in">pop</span>();</span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：队列的<code>push</code>、<code>pop</code>和<code>front</code>操作用于插入、删除和访问队首元素。</li>
 </ul>
 </li>
 </ol>
 <hr>
-<h3 id="Ch8-二叉树">Ch8: 二叉树</h3>
-<ol>
-<li>
-<p><strong>二叉树的前序遍历</strong></p>
+<h3 id="Ch8-二叉树"><a href="#Ch8-二叉树" class="headerlink" title="Ch8: 二叉树"></a>Ch8: 二叉树</h3><ol>
+<li><p><strong>二叉树的前序遍历</strong></p>
 <ul>
-<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">TreeNode</span> &#123;</span><br><span class="line">    <span class="type">int</span> val;</span><br><span class="line">    TreeNode* left;</span><br><span class="line">    TreeNode* right;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">preorder</span><span class="params">(TreeNode* root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">    cout &lt;&lt; root-&gt;val &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">    <span class="built_in">preorder</span>(root-&gt;left);</span><br><span class="line">    <span class="built_in">preorder</span>(root-&gt;right);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
+<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">TreeNode</span> &#123;</span><br><span class="line">    <span class="type">int</span> val;</span><br><span class="line">    TreeNode* left;</span><br><span class="line">    TreeNode* right;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">preorder</span><span class="params">(TreeNode* root)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == <span class="literal">nullptr</span>) <span class="keyword">return</span>;</span><br><span class="line">    cout &lt;&lt; root-&gt;val &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">    <span class="built_in">preorder</span>(root-&gt;left);</span><br><span class="line">    <span class="built_in">preorder</span>(root-&gt;right);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：前序遍历依次访问根节点、左子树和右子树。</li>
 </ul>
 </li>
-<li>
-<p><strong>二叉搜索树（BST）的插入</strong></p>
+<li><p><strong>二叉搜索树（BST）的插入</strong></p>
 <ul>
-<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">TreeNode* <span class="title">insert</span><span class="params">(TreeNode* root, <span class="type">int</span> val)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == <span class="literal">nullptr</span>) <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">TreeNode</span>(val);</span><br><span class="line">    <span class="keyword">if</span> (val &lt; root-&gt;val) root-&gt;left = <span class="built_in">insert</span>(root-&gt;left, val);</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (val &gt; root-&gt;val) root-&gt;right = <span class="built_in">insert</span>(root-&gt;right, val);</span><br><span class="line">    <span class="keyword">return</span> root;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
+<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">TreeNode* <span class="title">insert</span><span class="params">(TreeNode* root, <span class="type">int</span> val)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (root == <span class="literal">nullptr</span>) <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">TreeNode</span>(val);</span><br><span class="line">    <span class="keyword">if</span> (val &lt; root-&gt;val) root-&gt;left = <span class="built_in">insert</span>(root-&gt;left, val);</span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">if</span> (val &gt; root-&gt;val) root-&gt;right = <span class="built_in">insert</span>(root-&gt;right, val);</span><br><span class="line">    <span class="keyword">return</span> root;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：在BST中，左子树节点值小于根节点，右子树节点值大于根节点。</li>
 </ul>
 </li>
 </ol>
 <hr>
-<h3 id="Ch9-平衡二叉树">Ch9: 平衡二叉树</h3>
-<ol>
-<li><strong>AVL树的左旋和右旋</strong>
-<ul>
-<li><strong>代码示例</strong>（以右旋为例）：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">TreeNode* <span class="title">rightRotate</span><span class="params">(TreeNode* y)</span> </span>&#123;</span><br><span class="line">    TreeNode* x = y-&gt;left;</span><br><span class="line">    TreeNode* T2 = x-&gt;right;</span><br><span class="line">    x-&gt;right = y;</span><br><span class="line">    y-&gt;left = T2;</span><br><span class="line">    <span class="keyword">return</span> x;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
+<h3 id="Ch9-平衡二叉树"><a href="#Ch9-平衡二叉树" class="headerlink" title="Ch9: 平衡二叉树"></a>Ch9: 平衡二叉树</h3><ol>
+<li><strong>AVL树的左旋和右旋</strong><ul>
+<li><strong>代码示例</strong>（以右旋为例）：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">TreeNode* <span class="title">rightRotate</span><span class="params">(TreeNode* y)</span> </span>&#123;</span><br><span class="line">    TreeNode* x = y-&gt;left;</span><br><span class="line">    TreeNode* T2 = x-&gt;right;</span><br><span class="line">    x-&gt;right = y;</span><br><span class="line">    y-&gt;left = T2;</span><br><span class="line">    <span class="keyword">return</span> x;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：通过旋转保持AVL树的平衡，在插入或删除节点后进行调整。</li>
 </ul>
 </li>
 </ol>
 <hr>
-<h3 id="Ch10-红黑树">Ch10: 红黑树</h3>
-<ol>
-<li><strong>红黑树的插入和调整</strong>
-<ul>
-<li><strong>代码示例</strong>（逻辑复杂，以下为红黑树插入的简化步骤）：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">insert</span><span class="params">(TreeNode* root, <span class="type">int</span> val)</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 插入节点后，进行颜色和旋转调整，保持红黑树性质</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
+<h3 id="Ch10-红黑树"><a href="#Ch10-红黑树" class="headerlink" title="Ch10: 红黑树"></a>Ch10: 红黑树</h3><ol>
+<li><strong>红黑树的插入和调整</strong><ul>
+<li><strong>代码示例</strong>（逻辑复杂，以下为红黑树插入的简化步骤）：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">insert</span><span class="params">(TreeNode* root, <span class="type">int</span> val)</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 插入节点后，进行颜色和旋转调整，保持红黑树性质</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：红黑树插入操作需要调整颜色和结构，确保树满足红黑树的五个性质。</li>
 </ul>
 </li>
 </ol>
 <hr>
-<h3 id="Ch11-优先级队列">Ch11: 优先级队列</h3>
-<ol>
-<li><strong>优先级队列的使用</strong>
-<ul>
-<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">priority_queue&lt;<span class="type">int</span>&gt; pq;</span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">10</span>);</span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">20</span>);</span><br><span class="line">cout &lt;&lt; pq.<span class="built_in">top</span>(); <span class="comment">// 输出20</span></span><br><span class="line">pq.<span class="built_in">pop</span>();</span><br></pre></td></tr></table></figure>
-</li>
+<h3 id="Ch11-优先级队列"><a href="#Ch11-优先级队列" class="headerlink" title="Ch11: 优先级队列"></a>Ch11: 优先级队列</h3><ol>
+<li><strong>优先级队列的使用</strong><ul>
+<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">priority_queue&lt;<span class="type">int</span>&gt; pq;</span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">10</span>);</span><br><span class="line">pq.<span class="built_in">push</span>(<span class="number">20</span>);</span><br><span class="line">cout &lt;&lt; pq.<span class="built_in">top</span>(); <span class="comment">// 输出20</span></span><br><span class="line">pq.<span class="built_in">pop</span>();</span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：优先级队列使用堆实现，<code>top</code>操作用于访问优先级最高的元素。</li>
 </ul>
 </li>
 </ol>
 <hr>
-<h3 id="Ch13-哈希">Ch13: 哈希</h3>
-<ol>
-<li>
-<p><strong>哈希表的插入和查找</strong></p>
+<h3 id="Ch13-哈希"><a href="#Ch13-哈希" class="headerlink" title="Ch13: 哈希"></a>Ch13: 哈希</h3><ol>
+<li><p><strong>哈希表的插入和查找</strong></p>
 <ul>
-<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">unordered_map&lt;<span class="type">int</span>, string&gt; hashTable;</span><br><span class="line">hashTable[<span class="number">1</span>] = <span class="string">&quot;apple&quot;</span>;</span><br><span class="line">hashTable[<span class="number">2</span>] = <span class="string">&quot;banana&quot;</span>;</span><br><span class="line">cout &lt;&lt; hashTable[<span class="number">1</span>]; <span class="comment">// 输出 &quot;apple&quot;</span></span><br></pre></td></tr></table></figure>
-</li>
+<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">unordered_map&lt;<span class="type">int</span>, string&gt; hashTable;</span><br><span class="line">hashTable[<span class="number">1</span>] = <span class="string">&quot;apple&quot;</span>;</span><br><span class="line">hashTable[<span class="number">2</span>] = <span class="string">&quot;banana&quot;</span>;</span><br><span class="line">cout &lt;&lt; hashTable[<span class="number">1</span>]; <span class="comment">// 输出 &quot;apple&quot;</span></span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：哈希表提供常数时间的插入和查找操作，通过哈希函数将键映射到特定位置。</li>
 </ul>
 </li>
-<li>
-<p><strong>链式哈希处理冲突</strong></p>
+<li><p><strong>链式哈希处理冲突</strong></p>
 <ul>
-<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 链式哈希的实现可以使用链表</span></span><br><span class="line">vector&lt;list&lt;<span class="type">int</span>&gt;&gt; <span class="built_in">hashTable</span>(size);</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">hash</span><span class="params">(<span class="type">int</span> key)</span> </span>&#123; <span class="keyword">return</span> key % size; &#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">insert</span><span class="params">(<span class="type">int</span> key)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> index = <span class="built_in">hash</span>(key);</span><br><span class="line">    hashTable[index].<span class="built_in">push_back</span>(key);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
+<li><strong>代码示例</strong>：<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 链式哈希的实现可以使用链表</span></span><br><span class="line">vector&lt;list&lt;<span class="type">int</span>&gt;&gt; <span class="built_in">hashTable</span>(size);</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">hash</span><span class="params">(<span class="type">int</span> key)</span> </span>&#123; <span class="keyword">return</span> key % size; &#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">insert</span><span class="params">(<span class="type">int</span> key)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> index = <span class="built_in">hash</span>(key);</span><br><span class="line">    hashTable[index].<span class="built_in">push_back</span>(key);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li><strong>操作</strong>：使用链表处理哈希冲突，每个哈希位置存储一个链表。</li>
 </ul>
 </li>
