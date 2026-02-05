@@ -9,6 +9,7 @@ author_profile: true
 - **Tencent Qingyun Program – Starry Future Night**, 2026
 
 ## 2025
+- **BYD Scholarship**
 - **National Grand Prize**, 19th *“Challenge Cup”* National Undergraduate Competition (“Jiebangguashuai” Track)
 - **First Prize (Provincial), Second Prize (National)**, China Undergraduate Computer Design Competition
 - **Second Prize (Provincial)**, China University Student Mathematical Contest in Modeling
