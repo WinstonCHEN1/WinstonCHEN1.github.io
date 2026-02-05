@@ -14,7 +14,7 @@ author_profile: true
 - **First Prize (Provincial), Second Prize (National)**, China Undergraduate Computer Design Competition
 - **Second Prize (Provincial)**, China University Student Mathematical Contest in Modeling
 - **Second Prize (Provincial), Excellence Award (National)**, CRAIC China Robotics and Artificial Intelligence Competition
-- **Meritorious Winner (H Award)**, MCM/ICM (Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling)
+- **Honorable Mention (H Award)**, MCM/ICM (Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling)
 - **University-level Scholarship (Second Class)**, Southwest University
 - **Academic Science and Technology Award**, Southwest University
 - **University-level Project Approval**, National Undergraduate Innovation and Entrepreneurship Training Program
