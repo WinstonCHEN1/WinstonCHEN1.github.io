@@ -30,5 +30,5 @@ I am looking for a direct PhD offer; please feel free to contact me.
 
 {% assign selected_pubs = site.publications | reverse | limit: 5 %}
 {% for post in selected_pubs %}
-  {% include archive-single.html type="grid" %}
+  {% include archive-single.html %}
 {% endfor %}
