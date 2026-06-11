@@ -25,3 +25,10 @@ I am looking for a direct PhD offer; please feel free to contact me.
 - **2026.01** One paper accepted to WWW 2026 Demo.
 - **2025.11** One paper accepted to AAAI 2026.
 - **2023.09** Started my Undergraduate at Southwest University.
+
+# Selected Publications
+
+{% assign selected_pubs = site.publications | reverse | limit: 5 %}
+{% for post in selected_pubs %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
