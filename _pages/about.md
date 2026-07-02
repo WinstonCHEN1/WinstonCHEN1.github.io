@@ -21,6 +21,7 @@ I am looking for a direct PhD offer; please feel free to contact me.
 
 # News
 
+- **2026.07** One paper accepted to WISA 2026.
 - **2026.05** Started my internship at Tencent CSIG.
 - **2026.01** One paper accepted to WWW 2026 Demo.
 - **2025.11** One paper accepted to AAAI 2026.
