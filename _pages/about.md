@@ -9,15 +9,12 @@ redirect_from:
 
 # About Me
 
-I am a third-year undergraduate student at Southwest University.
+I am a four-year undergraduate student at Southwest University.
 
 My research interests include:
-- Retrieval-Augmented Generation*
+- Information Retrieval (especially RAG)
 - Large Language Models
-- AI Safety
 - Multi-Agent Systems
-
-I am looking for a direct PhD offer; please feel free to contact me.
 
 # News
 
